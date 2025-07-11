@@ -1,6 +1,6 @@
 # profile_option_docs.py
 
-from config.cla_color_config import CLAColor as color
+from utils.cla_color_config import CLAColor as color
 
 profile_option_docs = {
     "round": {
