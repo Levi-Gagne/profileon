@@ -161,7 +161,7 @@ profile_option_docs = {
 </div>
 """
     },
-        "sample_fraction": {
+    "sample_fraction": {
         "short": "Fraction of data sampled for profiling (speed/performance).",
         "default": 0.3,
         "long": f"""
@@ -179,7 +179,7 @@ profile_option_docs = {
 </div>
 """
     },
-    "sample_seed": {
+        "sample_seed": {
         "short": "Random seed for reproducible sampling. None=random.",
         "default": None,
         "long": f"""
