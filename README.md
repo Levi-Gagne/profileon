@@ -1,2 +1,1 @@
-# profileon
-turn on insight, turn on trust
+# app-templates
