@@ -1,0 +1,7 @@
+streamlit==1.38.0
+pyspark>=3.4
+pyarrow>=15.0
+databricks-sdk>=0.20
+black
+pylint
+databricks-labs-dqx

@@ -1,4 +1,4 @@
-# profileon/src/app.py
+# profileon/app.py
 
 import streamlit as st
 from config.cla_color_config import CLAColor
