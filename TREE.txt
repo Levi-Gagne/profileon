@@ -1,0 +1,28 @@
+profileon/
+├── .streamlit/
+│   └── config.toml                   # Streamlit UI theming/settings
+├── src/
+│   ├── profileon/                    # Main package
+│   │   ├── __init__.py
+│   │   ├── app.py                    # Streamlit entrypoint
+│   │   ├── config/
+│   │   │   ├── cla_color_config.py   # CLA color + typography config
+│   │   │   └── profile_options_docs.py # Docs/descriptions for profiling options
+│   │   ├── profiling/
+│   │   │   ├── table_profiler.py     # Spark profiling logic
+│   │   │   └── rule_generator.py     # Generate DQX rule YAML/JSON
+│   │   ├── databricks/
+│   │   │   ├── pipeline_discovery.py # SDK calls for pipeline/schema discovery
+│   │   │   └── uc_utils.py           # Unity Catalog helpers
+│   │   ├── ui/
+│   │   │   ├── widgets.py            # Custom widgets/components
+│   │   │   └── layout.py             # Branding, headers, info panels
+│   │   └── utils/
+│   │       ├── session_state.py      # Streamlit session helpers
+│   │       └── file_export.py        # Download/export logic (YAML/JSON/Volume)
+│   └── pages/
+│       └── 1_profile_rules.py        # Streamlit multi-page wizard (if needed)
+├── requirements.txt                  # All deps (PySpark, streamlit, dqx, SDK, etc.)
+├── README.md
+├── LICENSE
+└── .gitignore
