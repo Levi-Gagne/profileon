@@ -1,7 +1,5 @@
-# profileon/app.py
-
 import streamlit as st
-from config.cla_color_config import CLAColor
+from profileon.config.cla_color_config import CLAColor
 
 st.set_page_config(page_title="profileon", layout="centered")
 
@@ -42,7 +40,6 @@ st.markdown(
         visibility: visible;
     }}
     </style>
-
     <div class="info-hover">
         <span style="font-size:0.98rem; color:{primary}; font-weight:600;">ⓘ What is profileon?</span>
         <div class="tooltip">
@@ -94,7 +91,7 @@ st.markdown(
 )
 
 # --- Import and Run Wizard Page ---
-from pages.generate_dqx_rules import main as main_wizard_page
+from profileon.pages.generate_dqx_rules import main as main_wizard_page
 main_wizard_page()
 
 # --- Contact Section ---
