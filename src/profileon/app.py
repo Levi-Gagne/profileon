@@ -1,5 +1,7 @@
+# src/profilon/app.py
+
 import streamlit as st
-from profileon.config.cla_color_config import CLAColor
+from profilon.config.cla_color_config import CLAColor
 
 st.set_page_config(page_title="profileon", layout="centered")
 
